@@ -6,16 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Thinking...</title>
   <!-- Importando a fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Ubuntu:400,700" rel="stylesheet"> 
   <!-- Importando Settings -->
+  <link rel="stylesheet" href="./css/settings/colors.css">
   <!-- Importando Tools -->
   <!-- Importando Generic -->
   <link rel="stylesheet" href="./css/generic/normalize.css">
   <!-- Importando Base -->
   <!-- Importando Objects -->
   <!-- Importando Components -->
+  <link rel="stylesheet" href="./css/components/main-header.css">
+  <link rel="stylesheet" href="./css/components/main-hamburger.css">
+  <link rel="stylesheet" href="./css/components/main-nav.css">
+  <link rel="stylesheet" href="./css/components/group-buttons.css">
   <!-- Importando Trumps -->
 </head>
 <body>
-  
+  <header class="main-header">
+    <a href="" class="logo">Ba<span>r</span>ão</a>
+    <button class="main-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <p class="text">Menu</p>
+    </button>
+    <nav class="main-nav">
+      <a href="#home" class="item">Home</a>
+      <a href="#about" class="item">About</a>
+      <a href="#works" class="item">Works</a>
+      <a href="#contact" class="item">Contact</a>
+      <div class="group-buttons">
+        <button class="button -selected">Light</button>
+        <div class="vr"></div>
+        <button class="button">Dark</button>
+      </div>
+      <div class="group-buttons -language">
+        <button class="button -selected">English</button>
+        <div class="vr"></div>
+        <button class="button">Português</button>
+      </div>
+    </nav>
+  </header>
+  <script src="./js/components/main-nav.js"></script>
 </body>
 </html>

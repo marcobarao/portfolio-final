@@ -1,0 +1,33 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+    z-index: 9;
+}
+
+.main-header.-background {
+    background-color: var(--color-zero);
+}
+
+.main-header .logo {
+    display: inline-block;
+    font-family: 'Monoton', cursive;
+    font-size: 1.25rem;
+    color: var(--color-zero);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    white-space: nowrap;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+}
+
+.main-header .logo span{
+    color: var(--color-primary);
+}

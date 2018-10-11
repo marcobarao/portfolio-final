@@ -1,0 +1,72 @@
+.main-hamburger {
+    background-color: transparent;
+    border: none;
+    width: 26px;
+    height: 30px;
+    padding: 0;
+    position: relative;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.main-hamburger.-open span {
+    background-color: var(--color-dark);
+}
+
+.main-hamburger span {
+    display: block;
+    position: absolute;
+    height: 0.15em;
+    width: 100%;
+    background: var(--color-zero);
+    -webkit-transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    -o-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+}
+.main-hamburger span:nth-child(1) {
+    top: 0.3em;
+}
+  
+.main-hamburger span:nth-child(2),
+.main-hamburger span:nth-child(3) {
+    top: 0.8em;
+}
+  
+.main-hamburger span:nth-child(4) {
+    top: 1.3em;
+}
+  
+.main-hamburger.-open span:nth-child(1) {
+    top: 0.8em;
+    width: 0%;
+    left: 50%;
+}
+  
+.main-hamburger.-open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+  
+.main-hamburger.-open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+  
+.main-hamburger.-open span:nth-child(4) {
+    top: 0.8em;
+    width: 0%;
+    left: 50%;
+}
+
+.main-hamburger .text {
+    text-indent: -9999px;
+}
