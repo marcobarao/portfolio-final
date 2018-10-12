@@ -1,0 +1,27 @@
+.social-media {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+
+.social-media .item {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+}
+
+.social-media .item.-twitter {
+    background-image: url('../../img/twitter.svg');
+}
+
+.social-media .item.-linkedin {
+    background-image: url('../../img/linkedin.svg');
+}
+
+.social-media .item.-github {
+    background-image: url('../../img/github.svg');
+}

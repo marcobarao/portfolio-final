@@ -1,0 +1,45 @@
+.skill-figure {
+    width: 100%;
+    margin: 0;
+}
+
+.skill-figure > .name {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: var(--color-dark-gray);
+}
+
+.skill-figure > .progress {
+    display: flex;
+    height: 7px;
+    background-color: var(--color-zero-dark);
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 20px 0;
+}
+
+.skill-figure .bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    transition: width 400ms linear;
+}
+
+.skill-figure .percent {
+    position: absolute;
+    display: block;
+    top: -2rem;
+    right: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--color-dark-gray);
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+}

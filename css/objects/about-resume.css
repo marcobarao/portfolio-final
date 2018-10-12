@@ -1,0 +1,15 @@
+.about-resume {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--color-primary);
+    transition: all 300ms linear;
+}
+
+.about-resume:hover {
+    color: var(--color-zero);
+    background-color: var(--color-primary);
+}

@@ -1,0 +1,11 @@
+.contact-about {
+    margin-top: 4vh;
+}
+
+.contact-about  .info {
+    color: var(--color-dark-gray);
+}
+
+.contact-about  .action{
+    color: var(--color-negative-light);
+}

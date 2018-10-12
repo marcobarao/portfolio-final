@@ -1,0 +1,7 @@
+.about-subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-negative);
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
