@@ -1,0 +1,22 @@
+.typed-cursor {
+    padding: 4px 2px;
+    margin: 6px;
+    background-color: var(--color-zero);
+    -webkit-animation: blink 700ms infinite;
+    animation: blink 700ms infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}

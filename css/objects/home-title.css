@@ -1,0 +1,10 @@
+.home-title {
+    font-family: 'Monoton', cursive;
+    text-transform: uppercase;
+    color: var(--color-zero);
+    margin: 0.8rem 0;
+}
+
+.home-title span {
+    color: var(--color-primary);
+}

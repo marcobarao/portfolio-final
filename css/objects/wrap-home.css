@@ -1,0 +1,13 @@
+.wrap-home {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-height: 632px;
+    background-image: url('../../img/background.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}

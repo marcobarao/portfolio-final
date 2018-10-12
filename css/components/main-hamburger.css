@@ -13,10 +13,6 @@
     z-index: 11;
 }
 
-.main-hamburger.-open span {
-    background-color: var(--color-dark);
-}
-
 .main-hamburger span {
     display: block;
     position: absolute;

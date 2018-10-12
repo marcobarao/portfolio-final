@@ -5,11 +5,10 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: var(--color-zero);
+    background-color: var(--color-negative-light);
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    opacity: 0.6;
     z-index: 10;
     transform: translateX(100%);
     -webkit-transition: 300ms ease-in-out;
@@ -23,7 +22,7 @@
 }
 
 .main-nav .item {
-    color: var(--color-dark);
+    color: var(--color-zero);
     text-decoration: none;
     font-size: 1.2em;
     padding: 1vh;
