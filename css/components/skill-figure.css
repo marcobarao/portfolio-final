@@ -5,7 +5,7 @@
 
 .skill-figure > .name {
     font-size: 1rem;
-    letter-spacing: 0.05em;
+    
     font-weight: 700;
     margin: 0;
     margin-bottom: 0.5em;
@@ -41,5 +41,5 @@
     color: var(--color-dark-gray);
     text-align: center;
     white-space: nowrap;
-    letter-spacing: 0.05em;
+    
 }
