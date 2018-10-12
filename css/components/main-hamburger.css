@@ -18,12 +18,21 @@
     position: absolute;
     height: 0.15em;
     width: 100%;
-    background: var(--color-zero);
+    background-color: var(--color-zero);
     -webkit-transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     -o-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
 }
+
+.main-hamburger.-dark span {
+    background-color: var(--color-negative);
+}
+
+.main-hamburger.-open span {
+    background-color: var(--color-zero);
+}
+
 .main-hamburger span:nth-child(1) {
     top: 0.3em;
 }
