@@ -25,3 +25,15 @@
 .social-media .item.-github {
     background-image: url('../../img/github.svg');
 }
+
+.social-media .item.-twitter.-white {
+    background-image: url('../../img/twitter-white.svg');
+}
+
+.social-media .item.-linkedin.-white {
+    background-image: url('../../img/linkedin-white.svg');
+}
+
+.social-media .item.-github.-white {
+    background-image: url('../../img/github-white.svg');
+}

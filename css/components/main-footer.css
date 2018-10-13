@@ -1,0 +1,31 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4vh;
+    background-color: var(--color-dark-gray);
+}
+
+.main-footer > .logo {
+    display: inline-block;
+    font-family: 'Monoton', cursive;
+    font-size: 1.25rem;
+    color: var(--color-zero);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.main-footer > .logo span{
+    color: var(--color-primary);
+}
+
+.main-footer > .copyright {
+    color: var(--color-zero);
+    margin: 0;
+    margin-top: 4vh;
+}
