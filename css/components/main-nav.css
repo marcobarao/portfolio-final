@@ -5,16 +5,16 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: var(--color-negative-light);
+    background-color: var(--color-black-o90);
     flex-flow: column;
     justify-content: center;
     align-items: center;
     z-index: 10;
     transform: translateX(100%);
-    -webkit-transition: 300ms ease-in-out;
-    -moz-transition: 300ms ease-in-out;
-    -o-transition: 300ms ease-in-out;
-    transition: 300ms ease-in;
+    -webkit-transition: transform 300ms ease-in-out;
+    -moz-transition: transform 300ms ease-in-out;
+    -o-transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in;
 }
 
 .main-nav.-open {
@@ -27,14 +27,53 @@
     font-size: 1.2em;
     padding: 1vh;
     opacity: 1;
-    -webkit-transition: 250ms ease-in-out;
-    -moz-transition: 250ms ease-in-out;
-    -o-transition: 250ms ease-in-out;
-    transition: 250ms ease-in-out;
+    -webkit-transition: color 250ms ease-in-out;
+    -moz-transition: color 250ms ease-in-out;
+    -o-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 
 .main-nav .item.-active,
 .main-nav .item:hover,
 .main-nav .item:active {
-    color: var(--color-primary);
+    color: var(--color-primary-o80);
+}
+
+@media (min-width: 990px) {
+    .main-nav {
+        width: 30%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        transform: none;
+        transition: none;
+        background-color: transparent;
+    }
+
+    .main-nav .item {
+        font-size: 1rem;
+    }
+
+    .main-header.-background .main-nav .item {
+        color: var(--color-black);
+    }
+
+    .main-header.-background .main-nav .item.-active,
+    .main-header.-background .main-nav .item:hover,
+    .main-header.-background .main-nav .item:active {
+        color: var(--color-primary);
+    }
+
+    .main-nav .social-media {
+        display: none;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-nav .item{
+        font-size: 1.4rem;
+    }
 }

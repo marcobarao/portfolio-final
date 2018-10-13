@@ -1,6 +1,17 @@
 .home-subtitle {
     font-size: 1.2rem;
-    
     color: var(--color-zero);
     margin-top: 0;
+}
+
+@media (min-width: 510px) {
+    .home-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 760px) {
+    .home-subtitle {
+        font-size: 1.75rem;
+    }
 }

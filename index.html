@@ -35,7 +35,6 @@
   <link rel="stylesheet" href="./css/components/main-header.css">
   <link rel="stylesheet" href="./css/components/main-hamburger.css">
   <link rel="stylesheet" href="./css/components/main-nav.css">
-  <link rel="stylesheet" href="./css/components/group-buttons.css">
   <link rel="stylesheet" href="./css/components/skill-figure.css">
   <link rel="stylesheet" href="./css/components/contact-about.css">
   <link rel="stylesheet" href="./css/components/social-media.css">
@@ -46,30 +45,27 @@
 </head>
 <body>
   <header class="main-header">
-    <a href="" class="logo">Ba<span>r</span>ão</a>
-    <button class="main-hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <p class="text">Menu</p>
-    </button>
-    <nav class="main-nav">
-      <a href="#home" class="item">Home</a>
-      <a href="#about" class="item">About</a>
-      <a href="#works" class="item">Works</a>
-      <a href="#contact" class="item">Contact</a>
-      <div class="group-buttons">
-        <button class="button -selected">Light</button>
-        <div class="vr"></div>
-        <button class="button">Dark</button>
-      </div>
-      <div class="group-buttons -language">
-        <button class="button -selected">English</button>
-        <div class="vr"></div>
-        <button class="button">Português</button>
-      </div>
-    </nav>
+    <div class="container">
+      <a href="" class="logo">Ba<span>r</span>ão</a>
+      <button class="main-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <p class="text">Menu</p>
+      </button>
+      <nav class="main-nav">
+        <a href="#home" class="item">Home</a>
+        <a href="#about" class="item">About</a>
+        <a href="#works" class="item">Works</a>
+        <a href="#contact" class="item">Contact</a>
+        <ul class="social-media">
+          <a href="https://twitter.com/baraodev" class="action" target="_blank"><li class="item -twitter -white">Twitter</li></a>
+          <a href="https://linkedin.com/marcoabn" class="action" target="_blank"><li class="item -linkedin -white">LinkedIn</li></a>
+          <a href="https://github.com/marcobarao" class="action" target="_blank"><li class="item -github -white">GitHub</li></a>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="wrap-home">
@@ -147,7 +143,7 @@
       <h2 class="works-title">My Works</h2>
       <figure class="work-figure">
           <a href="assets/01.jpg" class="link">
-              <img src="./img/braven-desktop.png" class="image">
+              <img src="./img/portfolio-desktop.png" class="image">
               <div class="content">
                   <div class="title">Portfolio</div>
                   <p class="description">Just my portfolio.</p>

@@ -5,10 +5,10 @@
     height: 30px;
     padding: 0;
     position: relative;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    -webkit-transition: 500ms ease-in-out;
+    -moz-transition: 500ms ease-in-out;
+    -o-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
     cursor: pointer;
     z-index: 11;
 }
@@ -19,14 +19,14 @@
     height: 0.15em;
     width: 100%;
     background-color: var(--color-zero);
-    -webkit-transition: .15s ease-in-out;
-    -moz-transition: .15s ease-in-out;
-    -o-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
+    -webkit-transition: 150ms ease-in-out;
+    -moz-transition: 150ms ease-in-out;
+    -o-transition: 150ms ease-in-out;
+    transition: 150ms ease-in-out;
 }
 
 .main-hamburger.-dark span {
-    background-color: var(--color-negative);
+    background-color: var(--color-black);
 }
 
 .main-hamburger.-open span {
@@ -74,4 +74,10 @@
 
 .main-hamburger .text {
     text-indent: -9999px;
+}
+
+@media (min-width: 990px) {
+    .main-hamburger {
+        display: none;
+    }
 }

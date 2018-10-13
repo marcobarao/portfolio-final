@@ -8,3 +8,15 @@
 .home-title span {
     color: var(--color-primary);
 }
+
+@media (min-width: 510px) {
+    .home-title {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 760px) {
+    .home-title {
+        font-size: 3.8rem;
+    }
+}

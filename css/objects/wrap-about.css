@@ -2,4 +2,6 @@
     position: relative;
     width: 100%;
     padding: 5rem 1rem;
+    max-width: 570px;
+    margin: 0 auto;
 }

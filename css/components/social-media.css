@@ -1,6 +1,7 @@
 .social-media {
     position: relative;
     width: 100%;
+    max-width: 230px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 4vh;

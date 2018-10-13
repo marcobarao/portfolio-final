@@ -2,6 +2,8 @@
     --color-primary: #754ef9;
     --color-primary-o80: rgba(117, 78, 249, 0.8);
     --color-zero: #ffffff;
+    --color-black: rgba(0, 0, 0);
+    --color-black-o90: rgba(0, 0, 0, 0.9);
     --color-zero-dark: #f5f5f5;
     --color-negative: rgb(84, 78, 90);
     --color-negative-light: rgba(84, 78, 90, 0.9);
