@@ -14,8 +14,7 @@
             $hamburger.classList.remove('-dark')
         }
     }
-    
-    window.addEventListener('scroll',  () => {
+    function scrolled() {
         let last_known_scroll_position = window.scrollY;
         if (!ticking) {
             window.requestAnimationFrame(function() {
@@ -24,5 +23,7 @@
             });
         }
         ticking = true;
-    })
+    }
+    addEventListener('scroll',  scrolled)
+    addEventListener('load', scrolled)
 })();

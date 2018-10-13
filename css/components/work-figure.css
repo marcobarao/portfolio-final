@@ -1,0 +1,50 @@
+.work-figure {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.work-figure > .link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.work-figure .image {
+    width: 100%;
+    vertical-align: center;
+    border-radius: 0.3rem !important;
+}
+
+.work-figure .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: var(--color-primary-o80);
+    opacity: 0;
+    color: var(--color-zero);
+    border-radius: 0.3rem !important;
+
+    transition: all 200ms ease-in-out;
+}
+
+.work-figure .content:hover {
+    opacity: 1;
+}
+
+.work-figure .title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.work-figure .description {
+    font-size: 0.85rem;
+    padding: 0 1rem;
+}
