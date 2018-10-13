@@ -39,6 +39,7 @@
   <link rel="stylesheet" href="./css/components/skill-figure.css">
   <link rel="stylesheet" href="./css/components/contact-about.css">
   <link rel="stylesheet" href="./css/components/social-media.css">
+  <link rel="stylesheet" href="./css/components/contact-form.css">
   <!-- Importando Trumps -->
 </head>
 <body>
@@ -94,6 +95,14 @@
         </div>
       </figure>
       <figure class="skill-figure">
+        <h6 class="name">Responsive Design</h6>
+        <div class="progress">
+          <div class="bar" style="width: 80%;">
+            <span class="percent">80%</span>
+          </div>
+        </div>
+      </figure>
+      <figure class="skill-figure">
         <h6 class="name">Front-end</h6>
         <div class="progress">
           <div class="bar" style="width: 65%;">
@@ -145,13 +154,14 @@
         <input class="input" type="text" name="name" placeholder="Name">
         <input class="input" type="email" name="email" placeholder="Email">
         <input class="input" type="text" name="subject" placeholder="Subject">
-        <textarea class="input -big" name="message" placeholder="Message"></textarea>
-        <button type="submit" class="btn">Submit</button>
+        <textarea class="input -textarea" name="message" placeholder="Message" rows="6"></textarea>
+        <button type="submit" class="button">Submit</button>
       </form>
     </section>
   </main>
   <script src="./js/components/main-nav.js"></script>
   <script src="./js/components/main-header.js"></script>
+  <script src="./js/components/contact-form.js"></script>
   <script src="./js/objects/text-rotator.js"></script>
 </body>
 </html>

@@ -6,7 +6,6 @@
     const $hamburger = document.querySelector('.main-hamburger')
     
     function changeBgc(lksp) {
-        console.log(lksp)
         if(lksp > 0) {
             $header.classList.add('-background')
             $hamburger.classList.add('-dark')
