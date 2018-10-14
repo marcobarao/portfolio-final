@@ -1,0 +1,26 @@
+.cover {
+    display: none;
+    position: absolute;
+    background-color: rgba(115, 82, 212, 0.8);
+    width: 40vw;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.about-background {
+    display: none;
+    width: 40vw;
+    background-image: url('../../img/about-background.jpg');
+    background-position: top;
+}
+
+@media (min-width: 850px) {
+    .cover {
+        display: block;
+    }
+    
+    .about-background {
+        display: block;
+    }
+}

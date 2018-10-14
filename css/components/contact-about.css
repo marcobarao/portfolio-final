@@ -4,8 +4,20 @@
 
 .contact-about  .info {
     color: var(--color-dark-gray);
+    margin: 0;
 }
 
 .contact-about  .action{
     color: var(--color-negative-light);
+}
+
+@media (min-width: 490px) {
+    .contact-about {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 4vh;
+    }
 }

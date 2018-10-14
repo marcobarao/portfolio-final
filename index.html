@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="./css/objects/home-subtitle.css">
   <link rel="stylesheet" href="./css/objects/typed-cursor.css">
   <link rel="stylesheet" href="./css/objects/wrap-about.css">
+  <link rel="stylesheet" href="./css/objects/about-background.css">
+  <link rel="stylesheet" href="./css/objects/about-text.css">
   <link rel="stylesheet" href="./css/objects/about-title.css">
   <link rel="stylesheet" href="./css/objects/about-subtitle.css">
   <link rel="stylesheet" href="./css/objects/about-paragraph.css">
@@ -73,72 +75,72 @@
       <h3 class="home-subtitle">I'm a<span id="text-rotator"></span><span class="typed-cursor"></span></h3>
     </section>
     <section class="wrap-about" id="about">
-      <article>
+      <div class="cover"></div>
+        <div class="about-background"></div>
+      <article class="about-text">
         <h2 class="about-title">About Me</h1>
         <h5 class="about-subtitle">Back-end & Front-end Developer.</h2>
         <p class="about-paragraph">
           Lorem <b>ipsum</b>, dolor sit amet consectetur adipisicing elit. Voluptas ipsa placeat, numquam rem dicta alias doloribus enim cum temporibus porro error nesciunt nisi non sapiente totam facilis molestias ratione vitae?
           Possimus alias voluptatum eius numquam aliquid distinctio provident architecto ipsum rerum! Aperiam recusandae quidem tempora numquam voluptatum repellat illum, sed, laudantium sapiente soluta enim! Voluptatem, quidem? Facilis ex ad voluptate.
-          Ea praesentium doloremque debitis ut quibusdam! Et animi rem possimus deleniti sit repudiandae, recusandae asperiores quae incidunt suscipit placeat sunt ullam provident numquam aperiam hic modi maiores expedita consectetur dolorem.
-          Fuga perspiciatis sint officiis illum repellat, quisquam quod! At corporis exercitationem eos nisi! Saepe voluptatum perferendis numquam natus doloremque eveniet, excepturi, autem cupiditate at corrupti aliquam incidunt ea assumenda porro!
-          Eligendi deserunt neque explicabo adipisci incidunt aliquid, voluptas ipsum voluptatibus optio minima perspiciatis doloribus tempora odio, animi ratione? Possimus ipsam doloribus ullam veritatis dolorem inventore accusamus dolores, itaque aperiam neque!
+          Ea praesentium doloremque debitis ut quibusdam!
         </p>
-      </article>
-      <figure class="skill-figure">
-        <h6 class="name">Back-end</h6>
-        <div class="progress">
-          <div class="bar" style="width: 90%;">
-            <span class="percent">90%</span>
-          </div>
-        </div>
-      </figure>
-      <figure class="skill-figure">
-        <h6 class="name">Responsive Design</h6>
-        <div class="progress">
-          <div class="bar" style="width: 80%;">
-            <span class="percent">80%</span>
-          </div>
+        <figure class="skill-figure">
+          <h6 class="name">Back-end</h6>
+          <div class="progress">
+            <div class="bar" style="width: 90%;">
+                <span class="percent">90%</span>
+              </div>
+            </div>
+          </figure>
+          <figure class="skill-figure">
+            <h6 class="name">Responsive Design</h6>
+            <div class="progress">
+              <div class="bar" style="width: 80%;">
+                  <span class="percent">80%</span>
+                </div>
         </div>
       </figure>
       <figure class="skill-figure">
         <h6 class="name">Front-end</h6>
         <div class="progress">
           <div class="bar" style="width: 65%;">
-            <span class="percent">65%</span>
+              <span class="percent">65%</span>
+            </div>
           </div>
+        </figure>
+        <ul class="contact-about">
+          <li class="item">
+            <p class="info"><b>Email:</b> <a href="mailto:marco.barao@outlook.com" class="action" target="_blank">marco.barao@outlook.com</a></p>
+          </li>
+          <li class="item">
+            <p class="info"><b>Skype:</b> <a href="https://join.skype.com/invite/NvNlyWCHx9Ru" class="action" target="_blank">live:aa5e16a1688adf12</a></p>
+          </li>
+        </ul>
+        <ul class="social-media">
+          <a href="https://twitter.com/baraodev" class="action" target="_blank">
+            <li class="item -twitter">
+              Twitter
+            </li>
+          </a>
+          <a href="https://linkedin.com/in/marcoabn" class="action" target="_blank">
+            <li class="item -linkedin">
+              LinkedIn
+            </li>
+          </a>
+          <a href="https://github.com/marcobarao" class="action" target="_blank">
+            <li class="item -github">
+              GitHub
+            </li>
+          </a>
+        </ul>
+        <div class="wrap-resume">
+          <a href="resume" class="about-resume" target="_blank">
+            View my resume →
+          </a>
         </div>
-      </figure>
-      <ul class="contact-about">
-        <li class="item">
-          <p class="info"><b>Email:</b> <a href="mailto:marco.barao@outlook.com" class="action" target="_blank">marco.barao@outlook.com</a></p>
-        </li>
-        <li class="item">
-          <p class="info"><b>Skype:</b> <a href="https://join.skype.com/invite/NvNlyWCHx9Ru" class="action" target="_blank">live:aa5e16a1688adf12</a></p>
-        </li>
-      </ul>
-      <ul class="social-media">
-        <a href="https://twitter.com/baraodev" class="action" target="_blank">
-          <li class="item -twitter">
-            Twitter
-          </li>
-        </a>
-        <a href="https://linkedin.com/in/marcoabn" class="action" target="_blank">
-          <li class="item -linkedin">
-            LinkedIn
-          </li>
-        </a>
-        <a href="https://github.com/marcobarao" class="action" target="_blank">
-          <li class="item -github">
-            GitHub
-          </li>
-        </a>
-      </ul>
-      <div class="wrap-resume">
-        <a href="resume" class="about-resume" target="_blank">
-          View my resume →
-        </a>
-      </div>
-    </section>
+        </article>
+      </section>
     <section class="wrap-works">
       <h2 class="works-title">My Works</h2>
       <figure class="work-figure">
