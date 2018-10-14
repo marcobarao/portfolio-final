@@ -16,12 +16,18 @@
 
 @media (min-width: 1000px) {
     .about-text {
-        max-width: 620px;
+        max-width: 660px;
     }
 }
 
 @media (min-width: 1360px) {
     .about-text {
         max-width: 800px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .about-text {
+        max-width: 980px;
     }
 }
