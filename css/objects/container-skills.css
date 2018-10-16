@@ -1,6 +1,7 @@
 .container-skills {
     display: grid;
     grid-gap: 2rem;
+    margin-top: 3vw;
 }
 
 @media (min-width: 1200px) {

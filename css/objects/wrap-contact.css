@@ -24,13 +24,7 @@
     .wrap-contact {
         display: flex;
         flex-direction: column;
-        height: 30vw;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 1380px) {
-    .wrap-contact {
         height: 25vw;
+        justify-content: center;
     }
 }

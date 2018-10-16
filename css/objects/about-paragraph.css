@@ -1,4 +1,6 @@
 .about-paragraph {
+    font-size: 1.05rem;
     margin: 1.5rem 0;
-    color: var(--color-negative-light)
+    color: var(--color-negative-light);
+    text-align: justify;
 }
